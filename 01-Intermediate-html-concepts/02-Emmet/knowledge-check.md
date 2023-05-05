@@ -1,6 +1,7 @@
 # [Emmet Knowledge Check](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-emmet#knowledge-check)
 
 ## Why should you use Emmet?
+Cause it is great
 
 ## What are some useful Emmet abbreviations?
 
