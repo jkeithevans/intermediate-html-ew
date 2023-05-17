@@ -33,3 +33,6 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+td#name {
+border: 1px solid black
+}
