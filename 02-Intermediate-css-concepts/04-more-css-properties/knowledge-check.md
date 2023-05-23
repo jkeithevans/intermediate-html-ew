@@ -16,5 +16,5 @@ box-shadow
 border-radius
 
 ## How would you use border-radius to make a circular element?
-border-radius: 50%
+border-radius: 50% 
 
