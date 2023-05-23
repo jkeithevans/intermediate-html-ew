@@ -1,7 +1,7 @@
 # [Advanced Selectors Knowledge Check](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-selectors#knowledge-check)
 
 ## What is the difference between the child combinator and the descendant combinator?
-The child combinator will select children and grandchilden, where as the descendant combinator will only select the direct children 
+The child combinator will only select the direct children, where as the descendant combinator will select children and grandchilden 
 
 ## How does the syntax of pseudo-classes and pseudo-elements differ?
 Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that don’t normally exist in the markup.
@@ -10,7 +10,7 @@ Pseudo-class selectors are prefixed with a single colon and are a different way 
 Pseudo-classes do exist in the HTML and pseudo-elements do not.
 
 ## Name two ways you could select every second child of an element, starting with the first
-1. div:nth-child(2)
+1. div:nth-of-type(2)
 2. div:nth-child(2n)
 
 ## What is the difference between div:first-child and div:last-child? What will each select?
