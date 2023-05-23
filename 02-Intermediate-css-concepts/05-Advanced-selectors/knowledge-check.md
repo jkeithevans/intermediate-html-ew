@@ -10,8 +10,8 @@ Pseudo-class selectors are prefixed with a single colon and are a different way 
 Pseudo-classes do exist in the HTML and pseudo-elements do not.
 
 ## Name two ways you could select every second child of an element, starting with the first
-1. div:nth-of-type(2)
-2. div:nth-child(2n)
+1. `div:nth-child(odd)`
+2. `div:nth-child(2n + 1)`
 
 ## What is the difference between div:first-child and div:last-child? What will each select?
 The first-child will select the first element inside of the div element and last-child will select the last element inside of the div.
