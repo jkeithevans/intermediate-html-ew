@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url("./visax-CwQECl2HaF4-unsplash.jpg");
+    background-size:  35vw 100vh;
+    background-repeat: no-repeat;
+}
+
+#greyBgTop {
+    height: 35vh;
+    background-color: whitesmoke;
+    width: 65vw;
+    position: relative;
+    left: 35vw
+}
+
+#greyBgBottom {
+    height: 35vh;
+    background-color: whitesmoke;
+    width: 65vw;
+    position: relative;
+    left: 35vw;
+    top: 0vh;
+}
+
+#picCredit {
+    color: white;
+    position: absolute;
+    top: 96vh;
+    left: 10vw;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+#serviceText {
+    font-weight: bold;
+    width: 48vw;
+    position: relative;
+    top: 94px;
+    left: 40px;
+}
+
+#wantText {
+    width: 48vw;
+    font-weight: bold;
+    position: relative;
+    top: 116px;
+    left: 40px;
+}
+
+#formPosition {
+    border: 1px solid black;
+    width: 65vw;
+    height: 30vh;
+    position: relative;
+    left: 35vw
+}
+
+#formHeading {
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+ 
+span {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 40px;
+    border: 1px solid black;
+    width: 150px;
+}
+
+input {
+    margin-top: 2px;
+    margin-left: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    
+}
+
+input:focus {
+    border: 3px solid blue;
+}
+
+.formRow {
+   
+    border: 1px solid black;
+    /
+}
