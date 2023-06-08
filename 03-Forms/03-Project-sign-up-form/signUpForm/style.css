@@ -54,12 +54,18 @@ body {
     left: 40px;
 }
 
-#formPosition {
+form {
     border: 1px solid black;
     width: 65vw;
     height: 30vh;
     position: relative;
     left: 35vw
+}
+
+form fieldset {
+     display: flex;
+     flex-wrap: wrap;
+     
 }
 
 #formHeading {
@@ -73,17 +79,17 @@ span {
 }
 
 label {
-    display: block;
+   /* display: block; */
     font-size: 12px;
     margin-top: 12px;
     margin-left: 40px;
-    border: 1px solid black;
+    /* border: 1px solid green; */
     width: 150px;
 }
 
 input {
     margin-top: 2px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     border-radius: 4px;
     display: inline-block;
     
@@ -95,6 +101,11 @@ input:focus {
 
 .formRow {
    
-    border: 1px solid black;
-    /
+    border: 1px solid red;
+
+    width: 65vw;
+}
+
+label {
+    /* float: left; */
 }

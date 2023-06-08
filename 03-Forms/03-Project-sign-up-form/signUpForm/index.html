@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="greyBgTop">
-        <p id="serviceText">This is not a real online service! You need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-        <p id="wantText">You <i>know</i> you want to</p>
+        <p id="serviceText">This is not a real online service! You need something like this in your life to help you
+            realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p id="wantText">You <em>know</em> you want to</p>
     </div>
-    <form id="formPosition" action="">
-        <div id="formHeading">Let's do this!</div>
-        <div class="formRow">
-            <label for="firstName">First Name</label>
-            <input type="text" name="" id="firstName">
-            <label for="lastName">Last Name</label>
-            <input type="text" name="" id="lastName">
-        </div>
-       
+    <form  action="">
+        <fieldset>
+            <legend>Let's do this!</legend>
+            <label for="firstName">First Name
+                <input type="text" name="" id="firstName">
+            </label>
+            <label for="lastName">Last Name
+                <input type="text" name="" id="lastName">
+            </label>
+            <label for="email">Email
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="phone">Phone Number
+                <input type="tel" name="phone" id="phone">
+            </label>
+        </fieldset>
     </form>
     <div id="greyBgBottom">
 
     </div>
     <footer id="picCredit">Photo by <span>Visax</span> on <span>Unsplash</span></footer>
 </body>
+
 </html>
